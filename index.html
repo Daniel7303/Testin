@@ -1,32 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login Page</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <header>
-            <h1>SIGN IN TO YOUR ACCOUNT</h1>
-        </header>
+      <header class="login-header">
+        <h1 class="login-title">SIGN IN TO YOUR ACCOUNT</h1>
+      </header>
 
-<div class="input-box">
-    <form action="">
-        <input type="text"  name="Email" placeholder="Enter your email">
-        <input type="text"  name="password" placeholder="Enter your password">
-        <input type="checkbox">
-        <label for="mycheckedox"> keep me signed in</label>
-    </form>
-</div>
+      <div class="input-box">
+        <form action="" class="login-form">
+          <input
+            type="text"
+            name="Email"
+            class="email-input"
+            placeholder="Enter your email"
+          />
+          <input
+            type="text"
+            name="password"
+            class="password-input"
+            placeholder="Enter your password"
+          />
+          <input type="checkbox" class="remember-checkbox" />
+          <label for="mycheckedox" class="remember-label">
+            keep me signed in</label
+          >
+        </form>
+      </div>
 
+      <button class="signin-button">SIGN IN</button>
 
-<button>SIGN IN</button>
-
-<span>
-    <p>Forgot your password?</p>
-</span>
+      <span class="forgot-password">
+        <p>Forgot your password?</p>
+      </span>
     </div>
-</body>
+  </body>
 </html>
