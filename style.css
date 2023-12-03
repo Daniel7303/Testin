@@ -1,6 +1,66 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6a62d2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  background-color: #fff;
+  height: 400px;
+  margin: 100px;
+  width: 400px;
+  padding: 0px 40px;
+  border-radius: 10px;
+}
+.login-header {
+  margin: 30px 0px;
+}
+.login-title {
+  font-size: 20px;
+  text-align: center;
+}
+.login-form {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.email-input,
+.password-input {
+  padding: 20px 15px;
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  border: none;
+  background-color: #e7e8ed;
+  font-size: 16px;
+}
+.check-box {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+button {
+  padding: 20px 0px;
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  border: none;
+  background-color: #746bde;
+  color: #ffff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.5s ease-in-out;
+}
+button:hover {
+  background-color: #454274;
+}
+.forgot-password {
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.5;
+}
